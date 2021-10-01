@@ -6,5 +6,7 @@
     "start": "node index.js"
   },
   "author": "toto",
-  "license": ""
+  "dependencies": {
+    "discord.js": "^13.1.0"
+  }
 }
