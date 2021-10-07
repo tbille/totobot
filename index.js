@@ -16,6 +16,9 @@ client.on('messageCreate', message => {
   if (message.content.includes('will')) {
     message.channel.send('Will je t\'aime');
   }
+  if (message.content.includes('bat')) {
+    message.channel.send('Bat je t\'aime');
+  }
 });
 
 client.on('guildMemberUpdate', (oldMember, newMember) => {
